@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    #independenceDayContainer {
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #4a90e2;
+      color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      animation: floatAnimation 3s ease-in-out infinite;
+    }
+
+    @keyframes floatAnimation {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-top: 0;
+    }
+
+    img {
+      width: 150px;
+      height: auto;
+      margin-top: 20px;
+      border-radius: 50%;
+      animation: rotateAnimation 3s linear infinite;
+    }
+
+    @keyframes rotateAnimation {
+      0%, 100% {
+        transform: rotate(0deg);
+      }
+      50% {
+        transform: rotate(180deg);
+      }
+    }
+  </style>
+  <title>Happy Independence Day</title>
+</head>
+<body>
+
+  <div id="independenceDayContainer">
+    <h1>Happy Independence Day!</h1>
+    <p>Celebrating freedom, unity, and patriotism</p>
+    <img src="https://your-independence-day-image-url.jpg" alt="Independence Day Flag">
+  </div>
+
+</body>
+</html>
